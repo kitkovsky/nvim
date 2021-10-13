@@ -2,6 +2,10 @@ require'lspconfig'.tsserver.setup{}
 require'lspconfig'.clangd.setup{}
 require'lspconfig'.cmake.setup{}
 require'lspconfig'.pyright.setup{}
+require'lspconfig'.hls.setup{
+  on_attach = require("lspconfig").common_on_attach,
+  root_dir = require("lspconfig").util.root_pattern(".git"),
+}
 
 --Enable (broadcasting) snippet capability for completion
 local capabilities = vim.lsp.protocol.make_client_capabilities()
