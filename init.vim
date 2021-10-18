@@ -8,7 +8,7 @@ source $HOME/.config/nvim/plug-config/fugitive.vim
 source $HOME/.config/nvim/plug-config/telescope.vim
 source $HOME/.config/nvim/plug-config/emmet.vim
 source $HOME/.config/nvim/lsp/lsp-config.vim
-luafile $HOME/.config/nvim/lsp/compe-config.lua
+luafile $HOME/.config/nvim/lsp/cmp-config.lua
 luafile $HOME/.config/nvim/lsp/lsp-servers.lua
 luafile $HOME/.config/nvim/plug-config/telescope.lua
 luafile $HOME/.config/nvim/themes/statusline.lua

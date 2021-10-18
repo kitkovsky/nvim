@@ -34,7 +34,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
   Plug 'nvim-treesitter/playground'
   Plug 'neovim/nvim-lspconfig'
-  Plug 'hrsh7th/nvim-compe'
+  Plug 'hrsh7th/nvim-cmp'
+  Plug 'hrsh7th/cmp-nvim-lsp'
+  Plug 'hrsh7th/cmp-buffer'
 
   " nvim in google chrome
   Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }

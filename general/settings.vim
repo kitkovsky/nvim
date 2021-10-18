@@ -25,7 +25,7 @@ set incsearch
 set termguicolors
 set scrolloff=8
 set noshowmode
-set completeopt=menuone,noselect
+set completeopt=menu,menuone,noselect
 set signcolumn=yes
 set cmdheight=2
 set updatetime=50
