@@ -32,8 +32,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'nvim-treesitter/playground'
   Plug 'neovim/nvim-lspconfig'
   Plug 'hrsh7th/nvim-cmp'
-  Plug 'hrsh7th/cmp-nvim-lsp'
   Plug 'hrsh7th/cmp-buffer'
+  Plug 'hrsh7th/cmp-path'
+  Plug 'hrsh7th/cmp-nvim-lsp'
+  Plug 'saadparwaiz1/cmp_luasnip'
+  Plug 'L3MON4D3/LuaSnip'
+  Plug 'onsails/lspkind-nvim'
 
   " nvim in google chrome
   Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
