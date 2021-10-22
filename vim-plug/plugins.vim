@@ -39,9 +39,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'L3MON4D3/LuaSnip'
   Plug 'onsails/lspkind-nvim'
 
-  " nvim in google chrome
-  Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-
   " prime's refactoring
   "Plug 'ThePrimeagen/refactoring.nvim'
 
