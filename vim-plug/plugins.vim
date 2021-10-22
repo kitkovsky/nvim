@@ -6,9 +6,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'nvim-telescope/telescope.nvim'
   Plug 'nvim-telescope/telescope-fzy-native.nvim'
 
-  " floating terminal
-  Plug 'voldikss/vim-floaterm'
-
   " statusline git status
   Plug 'ThePrimeagen/git-worktree.nvim'
 
@@ -43,8 +40,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " prime's refactoring
   "Plug 'ThePrimeagen/refactoring.nvim'
-
-  " "Plug 'ray-x/lsp_signature.nvim'
 
 call plug#end()
 
