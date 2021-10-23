@@ -39,6 +39,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'L3MON4D3/LuaSnip'
   Plug 'onsails/lspkind-nvim'
 
+  Plug 'rhysd/committia.vim'
+
   " prime's refactoring
   "Plug 'ThePrimeagen/refactoring.nvim'
 
