@@ -7,6 +7,7 @@ source $HOME/.config/nvim/plug-config/git-gutter.vim
 source $HOME/.config/nvim/plug-config/fugitive.vim
 source $HOME/.config/nvim/plug-config/telescope.vim
 source $HOME/.config/nvim/plug-config/emmet.vim
+source $HOME/.config/nvim/plug-config/harpoon.vim
 source $HOME/.config/nvim/lsp/lsp-config.vim
 luafile $HOME/.config/nvim/lsp/cmp-config.lua
 luafile $HOME/.config/nvim/lsp/lsp-servers.lua

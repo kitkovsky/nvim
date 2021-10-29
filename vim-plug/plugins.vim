@@ -39,7 +39,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'L3MON4D3/LuaSnip'
   Plug 'onsails/lspkind-nvim'
 
+  " nice windows on git commit
   Plug 'rhysd/committia.vim'
+
+  " harpoon
+  Plug 'ThePrimeagen/harpoon'
 
   " prime's refactoring
   "Plug 'ThePrimeagen/refactoring.nvim'
