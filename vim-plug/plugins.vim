@@ -39,6 +39,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'L3MON4D3/LuaSnip'
   Plug 'onsails/lspkind-nvim'
 
+  Plug 'ray-x/lsp_signature.nvim'
+
   " nice windows on git commit
   Plug 'rhysd/committia.vim'
 
