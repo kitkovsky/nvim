@@ -14,4 +14,5 @@ luafile $HOME/.config/nvim/lsp/lsp-servers.lua
 luafile $HOME/.config/nvim/plug-config/telescope.lua
 luafile $HOME/.config/nvim/themes/statusline.lua
 luafile $HOME/.config/nvim/plug-config/treesitter.lua
+luafile $HOME/.config/nvim/plug-config/colorizer.lua
 

@@ -24,7 +24,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'jiangmiao/auto-pairs'
   "Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
   Plug 'sbdchd/neoformat'
-  Plug 'ap/vim-css-color'
+  Plug 'norcalli/nvim-colorizer.lua'
   Plug 'mattn/emmet-vim'
 
   " lsp and treesitter
@@ -49,6 +49,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " prime's refactoring
   "Plug 'ThePrimeagen/refactoring.nvim'
-
 call plug#end()
 
