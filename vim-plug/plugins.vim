@@ -26,6 +26,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'sbdchd/neoformat'
   Plug 'norcalli/nvim-colorizer.lua'
   Plug 'mattn/emmet-vim'
+  Plug 'KabbAmine/vCoolor.vim'
 
   " lsp and treesitter
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
