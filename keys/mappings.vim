@@ -37,6 +37,8 @@ nnoremap <leader>bd :bdelete<CR>
 " QuickFix list things
 nnoremap <leader>j :cnext<CR>zz
 nnoremap <leader>k :cprev<CR>zz
+nnoremap <leader>co :copen<CR>zz
+nnoremap <leader>cq :close<CR>zz
 
 " Neoformat
 nnoremap <leader>nf :Neoformat<CR>
