@@ -48,6 +48,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " harpoon
   Plug 'ThePrimeagen/harpoon'
 
+  Plug 'sakshamgupta05/vim-todo-highlight'
+
   " prime's refactoring
   "Plug 'ThePrimeagen/refactoring.nvim'
 call plug#end()
