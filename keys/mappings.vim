@@ -6,7 +6,6 @@ nnoremap ł    :vertical resize +3<CR>
 
 " I hate escape more than anything else
 inoremap jk <Esc>
-inoremap kj <Esc>
 nnoremap <C-c> <Esc>
 
 " TAB in general mode will move to text buffer
