@@ -7,6 +7,6 @@ nnoremap <leader>h4 <cmd>lua require("harpoon.ui").nav_file(4)<cr>
 
 nnoremap <leader>ht <cmd>lua require("harpoon.ui").toggle_quick_menu()<cr>
 
-nnoremap <leader>hn <cmd>lua require("harpoon.ui").nav_next()<cr>
-nnoremap <leader>hp <cmd>lua require("harpoon.ui").nav_prev()<cr>
+"nnoremap <leader>hn <cmd>lua require("harpoon.ui").nav_next()<cr>
+"nnoremap <leader>hp <cmd>lua require("harpoon.ui").nav_prev()<cr>
 
