@@ -14,7 +14,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'gruvbox-community/gruvbox'
   Plug 'preservim/nerdcommenter'
   Plug 'airblade/vim-gitgutter'
-  Plug 'psliwka/vim-smoothie'
+  "Plug 'psliwka/vim-smoothie' " stuttering when in big files
+  Plug 'yuttie/comfortable-motion.vim' " all smooth, but doesn't move the cursor with the screen
+  "Plug 'terryma/vim-smooth-scroll'
+  "Plug 'joeytwiddle/sexy_scroller.vim'
   Plug 'tweekmonster/startuptime.vim'
   Plug 'alvan/vim-closetag'
   "Plug 'vim-airline/vim-airline'
