@@ -64,11 +64,11 @@ end
 
 local function lsp_info()
 
-    local warnings = vim.lsp.diagnostic.get_count(0, "Warning")
-    local errors = vim.lsp.diagnostic.get_count(0, "Error")
-    local hints = vim.lsp.diagnostic.get_count(0, "Hint")
+    local warnings = vim.diagnostic.get(0, { severity = vim.diagnostic.severity.WARN })
+    local errors = vim.diagnostic.get(0, { severity = vim.diagnostic.severity.ERROR })
+    local hints = vim.diagnostic.get(0, { severity = vim.diagnostic.severity.HINT })
 
-    return string.format("LSP: H %d W %d E %d", hints, warnings, errors)
+    return string.format("LSP: H %d W %d E %d", #hints, #warnings, #errors)
 end
 
 local function harpoon_status()
@@ -93,7 +93,7 @@ function StatusLine()
         constrain_string(get_file_name(), 23, false),
         get_git_info(),
         lsp_info(),
-        "H:O", -- harpoon_status(),
+        "", -- harpoon_status(),
         status_line)
 end
 
