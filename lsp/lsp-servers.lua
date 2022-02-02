@@ -23,7 +23,7 @@ require"lsp_signature".setup()
 cfg = {
     floating_window = false, -- show hint in a floating window, set to false for virtual text only mode
     hint_enable = true, -- virtual hint enable
-    hint_prefix = "🍁 " -- parameter icon
+    hint_prefix = "🐍 " -- parameter icon
 }
 
 require'lsp_signature'.on_attach(cfg)
