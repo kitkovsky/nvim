@@ -52,6 +52,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'ThePrimeagen/harpoon'
 
   Plug 'sakshamgupta05/vim-todo-highlight'
+  Plug 'kevinoid/vim-jsonc'
 
   " prime's refactoring
   "Plug 'ThePrimeagen/refactoring.nvim'
