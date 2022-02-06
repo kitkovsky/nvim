@@ -12,7 +12,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   "Plug 'mhinz/vim-startify'
   "Plug 'lifepillar/vim-gruvbox8'
   Plug 'gruvbox-community/gruvbox'
-  Plug 'preservim/nerdcommenter'
   Plug 'airblade/vim-gitgutter'
   Plug 'psliwka/vim-smoothie' " stuttering when in big files, but not always?
   "Plug 'yuttie/comfortable-motion.vim' " all smooth, but doesn't move the cursor with the screen
@@ -53,6 +52,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   Plug 'sakshamgupta05/vim-todo-highlight'
   Plug 'kevinoid/vim-jsonc'
+
+  Plug 'terrortylor/nvim-comment'
 
   " prime's refactoring
   "Plug 'ThePrimeagen/refactoring.nvim'
