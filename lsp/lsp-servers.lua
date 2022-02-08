@@ -5,6 +5,7 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 require'lspconfig'.tsserver.setup {}
 require'lspconfig'.clangd.setup {}
 require'lspconfig'.cmake.setup {}
+require'lspconfig'.sumneko_lua.setup{}
 require'lspconfig'.pyright.setup {}
 require'lspconfig'.html.setup {capabilities = capabilities}
 require'lspconfig'.cssls.setup {capabilities = capabilities}
@@ -20,7 +21,7 @@ require'lspconfig'.jsonls.setup {
 
 require"lsp_signature".setup()
 
-cfg = {
+local cfg = {
     floating_window = false, -- show hint in a floating window, set to false for virtual text only mode
     hint_enable = true, -- virtual hint enable
     hint_prefix = "🐍 " -- parameter icon
