@@ -5,9 +5,6 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 require'lspconfig'.tsserver.setup {}
 require'lspconfig'.clangd.setup {}
 require'lspconfig'.cmake.setup {}
-<<<<<<< HEAD
-require'lspconfig'.sumneko_lua.setup{}
-=======
 require'lspconfig'.sumneko_lua.setup {
     settings = {
         Lua = {
@@ -17,7 +14,6 @@ require'lspconfig'.sumneko_lua.setup {
         }
     }
 }
->>>>>>> 715e419 (add lua lsp)
 require'lspconfig'.pyright.setup {}
 require'lspconfig'.html.setup {capabilities = capabilities}
 require'lspconfig'.cssls.setup {capabilities = capabilities}
