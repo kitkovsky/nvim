@@ -23,10 +23,6 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-" commenting with cmd+/
-vmap § <plug>NERDCommenterToggle
-nmap § <plug>NERDCommenterToggle
-
 " nerdtree stuff
 nnoremap <C-n> :Vexplore<CR>
 

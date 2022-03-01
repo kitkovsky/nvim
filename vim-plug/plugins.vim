@@ -21,6 +21,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'alvan/vim-closetag'
   "Plug 'vim-airline/vim-airline'
   Plug 'tpope/vim-fugitive'
+  Plug 'tpope/vim-commentary'
 
   Plug 'tpope/vim-surround'
   Plug 'jiangmiao/auto-pairs'
@@ -52,8 +53,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   Plug 'sakshamgupta05/vim-todo-highlight'
   Plug 'kevinoid/vim-jsonc'
-
-  Plug 'terrortylor/nvim-comment'
 
   " prime's refactoring
   "Plug 'ThePrimeagen/refactoring.nvim'
