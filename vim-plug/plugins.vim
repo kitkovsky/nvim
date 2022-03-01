@@ -56,6 +56,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'styled-components/vim-styled-components'
   Plug 'preservim/nerdtree'
 
+  Plug 'ryanoasis/vim-devicons'
   " prime's refactoring
   "Plug 'ThePrimeagen/refactoring.nvim'
 call plug#end()
