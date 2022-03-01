@@ -8,11 +8,6 @@ nnoremap ł    :vertical resize +3<CR>
 inoremap jk <Esc>
 nnoremap <C-c> <Esc>
 
-" TAB in general mode will move to text buffer
-nnoremap <TAB> :bnext<CR>
-" SHIFT-TAB will go back
-nnoremap <S-TAB> :bprevious<CR>
-
 " Better tabbing
 vnoremap < <gv
 vnoremap > >gv
