@@ -53,6 +53,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   Plug 'sakshamgupta05/vim-todo-highlight'
   Plug 'kevinoid/vim-jsonc'
+  Plug 'styled-components/vim-styled-components'
+  Plug 'preservim/nerdtree'
 
   " prime's refactoring
   "Plug 'ThePrimeagen/refactoring.nvim'
