@@ -12,6 +12,7 @@ source $HOME/.config/nvim/plug-config/vcoolor.vim
 source $HOME/.config/nvim/plug-config/neoformat.vim
 source $HOME/.config/nvim/lsp/lsp-config.vim
 source $HOME/.config/nvim/plug-config/vim-todo-highlight.vim
+source $HOME/.config/nvim/plug-config/lazygit.vim
 luafile $HOME/.config/nvim/lsp/cmp-config.lua
 luafile $HOME/.config/nvim/lsp/lsp-servers.lua
 luafile $HOME/.config/nvim/plug-config/telescope.lua
