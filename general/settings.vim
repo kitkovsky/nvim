@@ -42,3 +42,5 @@ set nofoldenable
 set foldlevel=2
 set foldmethod=syntax
 
+set guicursor=n-i-v-c-sm:block,ci-ve:ver25,r-cr-o:hor20
+
