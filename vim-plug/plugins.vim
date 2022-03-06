@@ -13,7 +13,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   "Plug 'lifepillar/vim-gruvbox8'
   Plug 'gruvbox-community/gruvbox'
   Plug 'airblade/vim-gitgutter'
-  Plug 'psliwka/vim-smoothie' " stuttering when in big files, but not always?
+  "Plug 'psliwka/vim-smoothie' " stuttering when in big files, but not always?
   "Plug 'yuttie/comfortable-motion.vim' " all smooth, but doesn't move the cursor with the screen
   "Plug 'terryma/vim-smooth-scroll'
   "Plug 'joeytwiddle/sexy_scroller.vim'
