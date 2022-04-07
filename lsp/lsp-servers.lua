@@ -5,16 +5,8 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 require("lspconfig").tsserver.setup({})
 require("lspconfig").clangd.setup({})
 require("lspconfig").cmake.setup({})
-require("lspconfig").sumneko_lua.setup({
-	settings = {
-		Lua = {
-			diagnostics = {
-				globals = { "vim" },
-			},
-		},
-	},
-})
 require("lspconfig").pyright.setup({})
+require("lspconfig").dockerls.setup({})
 require("lspconfig").html.setup({ capabilities = capabilities })
 require("lspconfig").cssls.setup({ capabilities = capabilities })
 require("lspconfig").jsonls.setup({
@@ -26,13 +18,22 @@ require("lspconfig").jsonls.setup({
 		},
 	},
 })
+require("lspconfig").sumneko_lua.setup({
+	settings = {
+		Lua = {
+			diagnostics = {
+				globals = { "vim" },
+			},
+		},
+	},
+})
 
 require("lsp_signature").setup()
 
 local cfg = {
 	floating_window = false, -- show hint in a floating window, set to false for virtual text only mode
 	hint_enable = true, -- virtual hint enable
-	hint_prefix = "🐍 ", -- parameter icon
+	hint_prefix = "🌱 ", -- parameter icon
 }
 
 require("lsp_signature").on_attach(cfg)
