@@ -9,6 +9,7 @@ require("lspconfig").pyright.setup({})
 require("lspconfig").dockerls.setup({})
 require("lspconfig").html.setup({ capabilities = capabilities })
 require("lspconfig").cssls.setup({ capabilities = capabilities })
+require("lspconfig").tailwindcss.setup({})
 require("lspconfig").jsonls.setup({
 	commands = {
 		Format = {
