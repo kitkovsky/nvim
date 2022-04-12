@@ -55,7 +55,6 @@ local function get_git_info(force)
 		if not git_branch or git_branch == "" then
 			git_branch = "(no git)"
 		end
-		git_branch = constrain_string(git_branch, 14)
 	end
 
 	return git_branch
@@ -84,7 +83,7 @@ Worktree.on_tree_change(function(op)
 	end
 end)
 
-local statusline = "%%-15.23(%s%%) |%%-14.14(%s%%)%%-20.20(%s%%)%%-6.6(%s%%)%%-30.70(%s%%)"
+local statusline = "%%-20.50(%s%%) |%%-30.50(%s%%)%%-20.20(%s%%)%%-6.6(%s%%)%%-30.70(%s%%)"
 function StatusLine()
 	return string.format(
 		statusline,
