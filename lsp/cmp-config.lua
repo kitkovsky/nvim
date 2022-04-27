@@ -19,15 +19,15 @@ cmp.setup({
 	sources = {
 		{ name = "nvim_lsp" },
 		{ name = "path" },
-		-- { name = "luasnip" },
 		{ name = "buffer" },
+		{ name = "luasnip" },
 	},
 
-	-- snippet = {
-	-- 	expand = function(args)
-	-- 		require("luasnip").lsp_expand(args.body)
-	-- 	end,
-	-- },
+	snippet = {
+		expand = function(args)
+			require("luasnip").lsp_expand(args.body)
+		end,
+	},
 
 	formatting = {
 		format = lspkind.cmp_format({
@@ -36,7 +36,7 @@ cmp.setup({
 				buffer = "[buf]",
 				nvim_lsp = "[LSP]",
 				path = "[path]",
-				-- luasnip = "[snip]",
+				luasnip = "[snip]",
 			},
 		}),
 	},
