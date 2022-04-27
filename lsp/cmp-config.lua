@@ -5,6 +5,8 @@ local cmp = require("cmp")
 
 cmp.setup({
 	mapping = {
+    ["<C-p>"] = cmp.mapping.select_prev_item(),
+    ["<C-n>"] = cmp.mapping.select_next_item(),
 		["<C-d>"] = cmp.mapping.scroll_docs(-4),
 		["<C-f>"] = cmp.mapping.scroll_docs(4),
 		["<C-e>"] = cmp.mapping.close(),
@@ -19,15 +21,15 @@ cmp.setup({
 	sources = {
 		{ name = "nvim_lsp" },
 		{ name = "path" },
-		-- { name = "luasnip" },
 		{ name = "buffer" },
+		{ name = "luasnip" },
 	},
 
-	-- snippet = {
-	-- 	expand = function(args)
-	-- 		require("luasnip").lsp_expand(args.body)
-	-- 	end,
-	-- },
+	snippet = {
+		expand = function(args)
+			require("luasnip").lsp_expand(args.body)
+		end,
+	},
 
 	formatting = {
 		format = lspkind.cmp_format({
@@ -36,10 +38,8 @@ cmp.setup({
 				buffer = "[buf]",
 				nvim_lsp = "[LSP]",
 				path = "[path]",
-				-- luasnip = "[snip]",
+				luasnip = "[snip]",
 			},
 		}),
 	},
-
-	experimental = { native_menu = false, ghost_text = true },
 })
