@@ -40,8 +40,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'hrsh7th/cmp-buffer'
   Plug 'hrsh7th/cmp-path'
   Plug 'hrsh7th/cmp-nvim-lsp'
-  " Plug 'saadparwaiz1/cmp_luasnip'
-  " Plug 'L3MON4D3/LuaSnip'
+  Plug 'saadparwaiz1/cmp_luasnip'
+  Plug 'L3MON4D3/LuaSnip'
   Plug 'onsails/lspkind-nvim'
 
   Plug 'ray-x/lsp_signature.nvim'
