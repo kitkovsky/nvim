@@ -2,33 +2,22 @@
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities.textDocument.completion.completionItem.snippetSupport = true
 
-require("lspconfig").tsserver.setup({})
-require("lspconfig").clangd.setup({})
-require("lspconfig").cmake.setup({})
-require("lspconfig").pyright.setup({})
-require("lspconfig").dockerls.setup({})
+require("lspconfig").tsserver.setup({ capabilities = capabilities })
+require("lspconfig").pyright.setup({ capabilities = capabilities })
+require("lspconfig").dockerls.setup({ capabilities = capabilities })
 require("lspconfig").html.setup({ capabilities = capabilities })
 require("lspconfig").cssls.setup({ capabilities = capabilities })
-require("lspconfig").tailwindcss.setup({})
-require("lspconfig").eslint.setup({})
-require("lspconfig").jsonls.setup({
-	commands = {
-		Format = {
-			function()
-				vim.lsp.buf.range_formatting({}, { 0, 0 }, { vim.fn.line("$"), 0 })
-			end,
-		},
-	},
-})
-require("lspconfig").sumneko_lua.setup({
-	settings = {
-		Lua = {
-			diagnostics = {
-				globals = { "vim" },
-			},
-		},
-	},
-})
+require("lspconfig").tailwindcss.setup({ capabilities = capabilities })
+require("lspconfig").eslint.setup({ capabilities = capabilities })
+-- require("lspconfig").sumneko_lua.setup({
+-- 	settings = {
+-- 		Lua = {
+-- 			diagnostics = {
+-- 				globals = { "vim" },
+-- 			},
+-- 		},
+-- 	},
+-- })
 
 require("lsp_signature").setup()
 

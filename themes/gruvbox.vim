@@ -3,7 +3,7 @@ let g:gruvbox_hide_endofbuffer=1
 let g:gruvbox_terminal_italics=1
 let g:gruvbox_termcolors=256
 
-colorscheme gruvbox8
+colorscheme gruvbox
 highlight Normal guibg=none
 "let g:gruvbox_contrast_dark = 'hard'
 if exists('+termguicolors')
