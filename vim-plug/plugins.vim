@@ -9,28 +9,19 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " statusline git status
   Plug 'ThePrimeagen/git-worktree.nvim'
 
-  "Plug 'mhinz/vim-startify'
-  "Plug 'lifepillar/vim-gruvbox8'
   Plug 'gruvbox-community/gruvbox'
   Plug 'airblade/vim-gitgutter'
-  "Plug 'psliwka/vim-smoothie' " stuttering when in big files, but not always?
-  "Plug 'yuttie/comfortable-motion.vim' " all smooth, but doesn't move the cursor with the screen
-  "Plug 'terryma/vim-smooth-scroll'
-  "Plug 'joeytwiddle/sexy_scroller.vim'
   Plug 'tweekmonster/startuptime.vim'
   Plug 'alvan/vim-closetag'
-  "Plug 'vim-airline/vim-airline'
   Plug 'tpope/vim-fugitive'
   Plug 'kdheepak/lazygit.nvim'
   Plug 'tpope/vim-commentary'
 
   Plug 'tpope/vim-surround'
   Plug 'jiangmiao/auto-pairs'
-  "Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
   Plug 'sbdchd/neoformat'
   Plug 'norcalli/nvim-colorizer.lua'
   Plug 'mattn/emmet-vim'
-  " Plug 'KabbAmine/vCoolor.vim'
 
   " lsp and treesitter
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
@@ -54,8 +45,4 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   Plug 'sakshamgupta05/vim-todo-highlight'
   Plug 'kevinoid/vim-jsonc'
-
-  " prime's refactoring
-  "Plug 'ThePrimeagen/refactoring.nvim'
 call plug#end()
-
