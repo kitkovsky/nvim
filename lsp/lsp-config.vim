@@ -9,4 +9,4 @@ nnoremap <silent> ]d <cmd>lua vim.diagnostic.goto_next()<CR>
 
 nnoremap <silent> <leader>rn <cmd>lua vim.lsp.buf.rename()<CR>
 nnoremap <silent> <leader>qf <cmd>lua vim.lsp.buf.code_action()<CR>
-
+nnoremap <silent> <leader>d <cmd>lua vim.diagnostic.open_float()<CR>
