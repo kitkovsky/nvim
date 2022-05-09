@@ -83,12 +83,12 @@ Worktree.on_tree_change(function(op)
 	end
 end)
 
-local statusline = "%%-20.60(%s%%) | %%-30.60(%s%%) | %%-20.20(%s%%) | %%-6.6(%s%%)%%-30.70(%s%%)"
+local statusline = "%%-20.80(%s%%) | %%-30.60(%s%%) | %%-20.20(%s%%) | %%-6.6(%s%%)%%-30.70(%s%%)"
 function StatusLine()
 	return string.format(
 		statusline,
 		-- write_count,
-		constrain_string(get_file_name(), 40, false),
+		constrain_string(get_file_name(), 80, false),
 		get_git_info(),
 		lsp_info(),
 		harpoon_status(),
