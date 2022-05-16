@@ -51,7 +51,7 @@ end
 
 local function get_git_info(force)
 	if force or not git_branch or git_branch == "" then
-		git_branch = vim.fn["fugitive#head"]()
+		git_branch = vim.fn["FugitiveHead"]()
 		if not git_branch or git_branch == "" then
 			git_branch = "(no git)"
 		end
