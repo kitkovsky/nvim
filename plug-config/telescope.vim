@@ -3,6 +3,10 @@ nnoremap <leader>fhf <cmd>lua require('telescope.builtin').find_files({hidden=tr
 nnoremap <leader>gf <cmd>lua require('telescope.builtin').git_files()<cr>
 nnoremap <leader>bf <cmd>lua require('telescope.builtin').buffers()<cr>
 nnoremap <leader>gs <cmd>lua require('telescope.builtin').git_status()<cr>
+nnoremap <leader>gc <cmd>lua require('telescope.builtin').git_commits()<cr>
+nnoremap <leader>gbc <cmd>lua require('telescope.builtin').git_bcommits()<cr>
+nnoremap <leader>gbr <cmd>lua require('telescope.builtin').git_branches()<cr>
+nnoremap <leader>gt <cmd>lua require('telescope.builtin').git_stash()<cr>
 nnoremap <leader>lg <cmd>lua require('telescope.builtin').live_grep()<cr>
 nnoremap <leader>blg <cmd>lua require('telescope.builtin').live_grep({grep_open_files=true})<cr>
 nnoremap <leader>flg <cmd>lua require('telescope.builtin').current_buffer_fuzzy_find()<cr>
