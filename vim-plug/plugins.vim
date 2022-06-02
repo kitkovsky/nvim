@@ -10,6 +10,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'ThePrimeagen/git-worktree.nvim'
 
   Plug 'gruvbox-community/gruvbox'
+  " Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
   Plug 'airblade/vim-gitgutter'
   Plug 'tweekmonster/startuptime.vim'
   Plug 'alvan/vim-closetag'
@@ -24,7 +25,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mattn/emmet-vim'
 
   " lsp and treesitter
-  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+  Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
   Plug 'nvim-treesitter/playground'
   Plug 'neovim/nvim-lspconfig'
   Plug 'hrsh7th/nvim-cmp'

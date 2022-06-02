@@ -1,5 +1,3 @@
-colorscheme gruvbox
-
 set background=dark
 
 let g:gruvbox_contrast_dark = 'hard'
@@ -7,10 +5,14 @@ let g:gruvbox_hide_endofbuffer=1
 let g:gruvbox_terminal_italics=1
 let g:gruvbox_termcolors=256
 let g:gruvbox_invert_selection='0'
+let g:gruvbox_italic=1
+let g:gruvbox_italicize_comments=1
 
-highlight Normal guibg=none
+colorscheme gruvbox
+
 highlight ColorColumn ctermbg=0 guibg=grey
 highlight Normal guibg=none
+highlight Normal ctermbg=none
 highlight LineNr guifg=#5eacd3
 highlight netrwDir guifg=#5eacd3
 highlight qfFileName guifg=#aed75f
