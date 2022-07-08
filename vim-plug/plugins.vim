@@ -37,6 +37,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'onsails/lspkind-nvim'
 
   Plug 'ray-x/lsp_signature.nvim'
+  Plug 'bkad/CamelCaseMotion'
 
   " nice windows on git commit
   Plug 'rhysd/committia.vim'
