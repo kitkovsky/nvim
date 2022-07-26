@@ -10,7 +10,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'ThePrimeagen/git-worktree.nvim'
 
   Plug 'gruvbox-community/gruvbox'
-  " Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
   Plug 'airblade/vim-gitgutter'
   Plug 'tweekmonster/startuptime.vim'
   Plug 'alvan/vim-closetag'
@@ -46,4 +45,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   Plug 'sakshamgupta05/vim-todo-highlight'
   Plug 'kevinoid/vim-jsonc'
+  Plug 'ckipp01/stylua-nvim'
 call plug#end()
